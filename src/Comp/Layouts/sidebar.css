@@ -1,0 +1,27 @@
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .sidebar {
+      position: relative;
+    }
+  .ri-global-line{
+    position: relative;
+    top:'20px';
+  }
+    .bottom-icons {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background-color: inherit; /* Ensure it inherits the theme color */
+    }
+  
+    #bottomIcons {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  

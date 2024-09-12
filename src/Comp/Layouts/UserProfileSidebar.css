@@ -1,0 +1,100 @@
+.user-profile-sidebar {
+    width: 376px;
+    background: #fff;
+    border-left: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .user-profile-sidebar .px-3, .user-profile-sidebar .px-lg-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .user-profile-sidebar .pt-3, .user-profile-sidebar .pt-lg-4 {
+    padding-top: 1rem;
+  }
+  
+  .user-chat-nav {
+    text-align: right;
+  }
+  
+  .user-chat-nav .nav-btn {
+    border: none;
+    background: transparent;
+    font-size: 1.25rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .p-4 {
+    padding: 1.5rem;
+  }
+  
+  .border-bottom {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .rounded-circle {
+    border-radius: 50%;
+  }
+  
+  .avatar-lg {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .img-thumbnail {
+    border: 1px solid #ddd;
+  }
+  
+  .font-size-16 {
+    font-size: 1rem;
+  }
+  
+  .text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .text-muted {
+    color: #6c757d;
+  }
+  
+  .font-size-14 {
+    font-size: 0.875rem;
+  }
+  
+  .font-size-13 {
+    font-size: 0.75rem;
+  }
+  
+  .text-success {
+    color: #28a745;
+  }
+  
+  .nav-btn i {
+    font-size: 1.25rem;
+  }
+  
+  .custom-accordion .card-header {
+    cursor: pointer;
+  }
+  
+  .custom-accordion .card-body {
+    padding: 1rem;
+  }
+  
+  .card-body .text-left {
+    text-align: left;
+  }
+  
+  .dropdown-menu-end {
+    right: 0;
+    left: auto;
+  }
+  

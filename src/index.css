@@ -1,0 +1,329 @@
+:root,
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media screen and (max-width: 900px) {
+  .asss {
+    background-color: aqua !important;
+    float: left !important;
+  }
+}
+
+.conta {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  width: 75px;
+  height: 100vh;
+  background-color: var(--bg-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 4px;
+}
+
+#topLogo {
+  display: block;
+}
+
+#sidebarMiddleIcons {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 58px;
+}
+
+.lastIcons {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  margin: 4px;
+}
+
+.menudesc {
+  height: 100vh;
+  width: 475px;
+  margin-right: 4px;
+
+  /* background-color: #f5f7fb; */
+}
+
+.chat-box {
+  height: 100vh;
+  width: calc(100vw - 383px - 75px);
+  background-color: pink;
+  z-index: 5;
+  /* display: block !important; */
+}
+
+.back-btn {
+  display: none;
+}
+
+#csearchPhLight::placeholder {
+  color: #878a92;
+}
+
+#csearchPhDark::placeholder {
+  color: #a7aed2;
+}
+
+#gsearchPhLight::placeholder {
+  color: #878a92;
+}
+
+#gsearchPhDark::placeholder {
+  color: #a7aed2;
+}
+
+.phColorLight {
+  color: #878a92 !important;
+}
+
+.phColorDark {
+  color: #a7aed2 !important;
+}
+
+.profile.dropdown-toggle::after {
+  display: none !important;
+}
+
+.switchDark:checked {
+  background-color: #272e34 !important;
+}
+
+.switchLight:checked {
+  background-color: #7269ef !important;
+}
+
+.form-check-input:checked {
+  background-color: #7269ef !important;
+  border-color: transparent !important;
+}
+
+.form-check-input:focus {
+  outline: transparent !important;
+}
+
+.form-check-input {
+  background-color: transparent !important;
+  background-color: transparent !important;
+}
+
+button.accordion-button.collapsed::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='rgba(165,163,163,1)'%3E%3Cpath d='M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z'%3E%3C/path%3E%3C/svg%3E") !important;
+}
+
+button.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='rgba(165,163,163,1)'%3E%3Cpath d='M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z'%3E%3C/path%3E%3C/svg%3E") !important;
+}
+
+.phColorLight::placeholder {
+  color: #878a92 !important;
+}
+
+.phColorDark::placeholder {
+  color: #a7aed2 !important;
+}
+
+.alice-carousel__wrapper {
+  height: 71px;
+}
+
+.alice-carousel__stage {
+  width: 51px;
+  height: 71px !important ;
+}
+
+.alice-carousel__stage-item {
+  width: 71px;
+  height: 71px;
+  margin-right: 16px !important;
+  margin-top: 0px;
+}
+
+.accordion-item {
+  margin-bottom: 8px;
+  border-radius: 0 !important;
+  border: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.accordion-button {
+  padding: 12px 20px;
+  border-radius: 0 !important;
+  border: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.accordion-button::after {
+  width: 20px;
+  height: 15px;
+}
+
+.accordion-button.collapsed::after {
+  width: 20px;
+  height: 15px;
+}
+
+.accordion-body {
+  padding: 20px !important;
+}
+
+input:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.chatbox-chat {
+  height: calc(100vh - 182px) !important;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: transparent;
+  /* color: white; */
+  /* padding: 10px 20px; */
+  border: none;
+  cursor: pointer;
+}
+
+.dropup-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 100%; /* Position above the button */
+  left: 0;
+  /* background-color: #f9f9f9; */
+  min-width: 100px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+  z-index: 1;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #878a9225;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a7aed23a;
+  border-radius: 20px;
+}
+
+/* 
+sdjfsdf
+sfsdfsdf
+sddsfsdf
+sdfsfsdfsd
+sfdsdfsdf
+sdfsdfsdf
+s */
+
+@media only screen and (max-width: 990px) {
+  .conta {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+
+  .sidebar {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+ 
+  .chat-box {
+    height: 100vh !important;
+    width: 100vw;
+    position: absolute !important;
+    display: none;
+  }
+
+  .chatbox-chat {
+    height: calc(100vh - 132px - 50px) !important;
+  }
+
+  #topLogo {
+    display: none;
+  }
+
+  #sidebarMiddleIcons {
+    width: 78%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+    margin-left: -60px;
+    margin-right: 0;
+  }
+
+  .lastIcons {
+    display: flex;
+    width: 12%;
+    flex-direction: row;
+    margin-left: -90px;
+    justify-content: space-between;
+  }
+
+  .menudesc {
+    height: calc(100vh - 50px);
+    width: 100vw;
+    margin-right: 0;
+  }
+
+  .icons {
+    width: 20%;
+    height: 90%;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .back-btn {
+    display: block;
+  }
+}
